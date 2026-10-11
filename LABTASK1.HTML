@@ -1,0 +1,99 @@
+ctype html>
+<html lang="en">
+    <head>
+        <title>Weekly Course Routine</title>
+        <link rel="icon" href="profile_pic.png">
+    </head>
+    <h2>Weekly Course Routine</h2>
+     <img width="20" height="20" src="profile_pi.png" alt="Profile Pic">
+		<img width="100" height="100" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/960px-W3Schools_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail">
+        <br><br>
+    <body>
+        <style>
+            table, th, td {
+				border: 1px solid  black;
+				border-collapse: collapse;
+			}
+			th, td {
+				padding: 5px;
+			}
+		</style>
+		<table>
+            
+			<tr>Class Schedule Fall 26</tr>
+            <br>
+            
+            
+				<th>Day</th>
+				<th>Time</th>
+				<th>Course</th>
+                <th>Room</th>
+			</tr>
+			<tr>
+				<td>Sunday</td>
+				<td>8:00-10:00</td>
+                <td>Web (theory)</td>
+				<td>D-101</td>
+			</tr>
+			<tr>
+				<td>Tuesday</td>
+				<td>10:20-12:40</td>
+                <td>Web(Lab)</td>
+				<td>D-202</td>
+			</tr>
+			<tr>
+				<td>Thursday</td>
+				<td>3:00-5:00</td>
+				<td>Web(theory)</td>
+				<td>D303</td>
+			</tr>
+		</table>
+        </style>
+       
+        
+
+        
+        
+        <h4>Class Feedback Form</h4>
+        <form action="form-handler.html" method="post">
+            <fieldset>
+				<legend>Class Feedback</legend>
+                <label for="fullname">Full Name:</label>
+                <input id="fullname" name="fn" minlength="3" required />
+                <br /><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="em" required />
+            
+            <br /><br>
+            <label for="class date">Class Date:</label>
+            <input type="class date" id="class date" name="cd" required />
+            <br /><br>
+            <label for="course">Course:</label>
+            <input type="course" id="course" name="p1" required />
+            <br /><br>
+            <label for="rating (1 to 5)">Rating (1 to 5):</label>
+            <input type="rating (1 to 5)" id="rating (1 to 5)" name="p2" required />
+            <br />
+            <button>Comment</button>
+            <br /><br>
+            <textarea name="" id=""></textarea>
+            <br />
+            Class Type:
+            <br />
+            <input type="radio" name="class type" /> Lab
+            <br />
+            <input type="radio" name="class type" /> Theory
+            <br />
+           
+            <select>
+                <option value="">Select an option</option>
+                <option value="l">Lab</option>
+                <option value="th">Theory</option>
+            </select>
+            <br />
+            <br />
+            <button>send feedback</button>
+        </form>
+    </fieldset>
+    </body>
+</html>
